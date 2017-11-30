@@ -1,0 +1,51 @@
+#scd{
+  background-color: #FEC12F;
+  color: #000;
+  width: 237px;
+  height: 40px;
+  text-align: center;
+}
+
+#ac{
+  border: solid 2px #FEC12F;
+  background-color: #2AA7D5;
+  color: #FEC12F;
+  margin-left: 15px;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+}
+
+nav{
+  margin-top: 1%;
+}
+
+.navbar-header button{
+  border: solid 1px #fff;
+  padding: 2%;
+}
+
+.icon-bar{
+  background-color: #fff;
+}
+
+.active{
+  color: #fff;
+}
+
+.active:visited{
+  color: #fff;
+}
+
+nav a{
+  color: #B6DCFF;
+}
+
+nav a:visited{
+  color: #B6DCFF;
+}
+
+nav a:hover{
+  background-color: #2AA7D5;
+  color: #f2f2f2;
+}

@@ -1,0 +1,75 @@
+#banner{
+  max-height: 560px;
+  height: 640px;
+  opacity: 0.9;
+  color: #fff;
+  overflow: hidden;
+  padding-left: 46px;
+  background: #2AA7D5 url("../../assets/imgs/mockup.png") no-repeat bottom right;
+}
+
+#imgbg{
+  max-height: 560px;
+  height: 640px;
+  opacity: 0.9;
+  color: #fff;
+  overflow: hidden;
+  padding-left: 46px;
+}
+
+/*#charts{
+  margin-top: 38px;
+  width: 546px;
+  height: 438px;
+  float: right;
+  bottom: 0;
+}*/
+
+#leftPanel{
+  margin-top: 38px;
+  min-width: 284px;
+}
+
+#livePre{
+  border: solid 1px #FFF;
+  background-color: #2AA7D5;
+  /*width: 262px;
+  height: 58;*/
+  font-size: 20px;
+  padding: 1% 15% 1% 15%;
+  float: left;
+  margin-right: 18px;
+}
+
+#downld{
+  border: solid 1px #FFF;
+  background-color: #2AA7D5;
+  /*width: 262px;
+  height: 58;*/
+  font-size: 20px;
+  padding: 1% 15% 1% 15%;
+  float: left;
+}
+
+#livePre:hover{
+  color: #000;
+  background-color: #FFF;
+}
+
+#downld:hover{
+  color: #000;
+  background-color: #FFF;
+}
+
+
+@media screen and (min-width: 480px) {
+  #downld, #livePre{
+    width: 90%;
+    background-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  #leftPanel{
+    text-align: center;
+  }
+}
